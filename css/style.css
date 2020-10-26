@@ -64,7 +64,7 @@
   margin-top: -5px;
   padding-left: 15px;
   opacity: 0;
-  right: calc(-100% - 56px);
+  right: calc(-100% - 56px );
 }
 .timeline-item:nth-child(even) {
   align-self: flex-end;
@@ -72,7 +72,7 @@
 .timeline-item:nth-child(even):before {
   right: auto;
   text-align: right;
-  left: calc(-100% - 56px);
+  left: calc(-100% - 56px );
   padding-left: 0;
   border-left: none;
   border-right: 2px solid rgba(255, 255, 255, 0.5);
@@ -117,7 +117,6 @@
   width: 100%;
   position: relative;
   padding: 80px 0;
-  transition: .3s ease 0s;
   background-attachment: fixed;
   background-size: cover;
 }
